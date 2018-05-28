@@ -1,0 +1,29 @@
+\hypertarget{print_8hpp}{}\section{include/print.hpp File Reference}
+\label{print_8hpp}\index{include/print.\+hpp@{include/print.\+hpp}}
+{\ttfamily \#include $<$string$>$}\newline
+{\ttfamily \#include $<$fstream$>$}\newline
+{\ttfamily \#include $<$iostream$>$}\newline
+Include dependency graph for print.\+hpp\+:
+% FIG 0
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{print_8hpp_ae12fd32fb711d3e888d4cd8a65974c65}{print} (const std\+::string \&text, std\+::ostream \&out=std\+::cout)
+\item 
+void \hyperlink{print_8hpp_a88a4a55e7c5f7356f8a1fdcfbfbd1ae9}{print} (const std\+::string \&text, std\+::ofstream \&out)
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{print_8hpp_ae12fd32fb711d3e888d4cd8a65974c65}\label{print_8hpp_ae12fd32fb711d3e888d4cd8a65974c65}} 
+\index{print.\+hpp@{print.\+hpp}!print@{print}}
+\index{print@{print}!print.\+hpp@{print.\+hpp}}
+\subsubsection{\texorpdfstring{print()}{print()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void print (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{text,  }\item[{std\+::ostream \&}]{out = {\ttfamily std\+:\+:cout} }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{print_8hpp_a88a4a55e7c5f7356f8a1fdcfbfbd1ae9}\label{print_8hpp_a88a4a55e7c5f7356f8a1fdcfbfbd1ae9}} 
+\index{print.\+hpp@{print.\+hpp}!print@{print}}
+\index{print@{print}!print.\+hpp@{print.\+hpp}}
+\subsubsection{\texorpdfstring{print()}{print()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void print (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{text,  }\item[{std\+::ofstream \&}]{out }\end{DoxyParamCaption})}
+
